@@ -1,0 +1,199 @@
+body {
+  min-height: 3000px;
+  background-color: black;
+}
+
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  padding-top: 3rem;
+}
+
+#navbarNav a:hover {
+  color: orange;
+}
+
+.jumbotron {
+  padding-top: 9rem;
+}
+
+.jumbotron svg {
+  padding-top: 1rem;
+}
+
+.jumbotron h1 {
+  font-family: bungee spice;
+  font-size: 50px;
+  padding-top: 1rem;
+}
+
+.jumbotron p {
+  color: white;
+}
+
+.jumbotron p span {
+  color: white;
+}
+
+.rounded-circle {
+  align-items: center;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0) !important;
+  backdrop-filter: blur(4px);
+  color: white !important;
+}
+
+.navbar-brand {
+  font-family: Nabla;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.audio {
+  width: 20%;
+}
+
+.about {
+  padding-top: 5rem;
+}
+
+.about p {
+  font-family: poppins;
+  font-weight: 200;
+}
+
+.about span {
+  color: rgb(0, 102, 255);
+}
+
+.about h2 {
+  padding-top: 1rem;
+  font-family: bungee spice;
+}
+
+.about svg {
+  bottom: 3rem;
+}
+
+.project {
+  padding-top: 7rem;
+  background-color: #171b28;
+}
+
+.project p {
+  font-size: 14px;
+}
+
+.project h2,
+.contact h2 {
+  font-family: bungee spice;
+  margin-bottom: 3rem;
+}
+
+.project h3 {
+  margin-bottom: 2rem;
+  font-size: 22px;
+  color: white;
+}
+
+.bahan {
+  float: left;
+  margin-left: 1%;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+/* .srr {
+  float: left;
+  margin-left: -50%;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+  color: white;
+  font-size: 12px;
+}
+
+#iconPlay {
+  color: white;
+  margin-left: 20%;
+} */
+
+.contact {
+  padding-top: 0;
+}
+
+.contact h2 {
+  font-family: bungee spice;
+  margin-bottom: 3rem;
+}
+
+.col-9 {
+  color: orangered;
+}
+
+#submit:hover {
+  background-color: orange;
+  color: black;
+}
+
+footer {
+  background-color: orangered;
+  text-align: center;
+  padding: 1rem 0 0rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+footer .socials {
+  padding: 1rem 0;
+}
+
+footer .socials a {
+  color: black;
+  margin: 1rem;
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+  color: white;
+}
+
+footer .links {
+  margin-bottom: 1.4rem;
+}
+
+footer .links a {
+  color: black;
+  padding: 0.7rem 1rem;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
+}
+
+footer .credit a {
+  color: black;
+  font-weight: 700;
+}
+
+footer .credit a:hover {
+  color: #fff;
+}
+
+/* Media Query */
+@media (max-width: 576px) {
+  .about p {
+    font-size: 15px;
+  }
+}
